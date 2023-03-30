@@ -15,5 +15,12 @@ class Alumno{
 		this.apellido=apellido;
 		this.dni=dni;
 	}
+	@Override
+	public String toString() {
+		
+		
+		return "El nombre es"+this.nombre+" el apellido es "+this.apellido+"el dni es "+this.dni;
+		
+	}
 }
 }
