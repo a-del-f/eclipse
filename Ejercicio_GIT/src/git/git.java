@@ -6,7 +6,8 @@ public static void main(String[] args) {
 	System.out.println("alumno 1:");
 	Alumno aa=new Alumno("pepe","perez","32423424Y");
 }
-class Alumno{
+ 
+} class Alumno{
 	private String nombre;
 	private String apellido;
 	private String dni;
@@ -23,5 +24,4 @@ class Alumno{
 		return "El nombre es"+this.nombre+" el apellido es "+this.apellido+"el dni es "+this.dni;
 		
 	}
-}
 }
