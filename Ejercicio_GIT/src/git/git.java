@@ -7,7 +7,8 @@ public static void main(String[] args) {
 	Alumno aa=new Alumno("pepe","perez","32423424Y");
 }
  
-} class Alumno{
+}
+class Alumno{
 	private String nombre;
 	private String apellido;
 	private String dni;
